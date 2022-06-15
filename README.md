@@ -1,70 +1,14 @@
-# Getting Started with Create React App
+# Bienvenido a Router-Tutorial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hola bienvenido/a a router-tutorial.  Se trata de una aplicación web generada siguiendo un tutorial para aprender a utilizar la librería React Router.  Dicho tutorial se encuentra en https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md.  Es una aplicación de react que utiliza la librería react-router-dom.
 
-## Available Scripts
+## Instalación
 
-In the project directory, you can run:
+Clonar el codigo a una carpeta local (https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository) y abrir la carpeta con VS-CODE (recomendable), abrir una terminal y correr el comando npm install para instalar las dependencias. Luego ejecutar npm start para verificar el correcto funcionamiento
+Abrir [http://localhost:3000](http://localhost:3000) para verlo in tu navegador.
 
-### `npm start`
+La página se recarga si tu realizas modificaciones sobre el código fuente.\
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Sobre el Código
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Se implementó un menú con dos opciones: invoices o expenses.  Se desarrolla la parte de invoices y expenses queda pendiente.  Se navega a través de componentes desarrollados utilizando las funciones que provee el React Router y otras propias que se basan en estas.  Con Invoices se logra mostrar a través del link del menú un listado de invoices que ha sido hardcodeado en un data.js.  Cuando se hace click en una invoice determinada se muestran los datos de es invoice particular con un botón que permite borrarla.  Se utilizó el componente invoices para mostrar la lista y el componente invoice para el detalle con la funcionalidad del borrado.  El componente expensea queda pendiente de desarrollo, actualmente sólo se muestra la palabra Expenses.  Con está aplicación puede observarse muy bien si se presta atención a las direcciones URL que genera cada link, como es el pasaje de parámetros a través de URL, ya sea en el mismo path o en forma de querystring.
