@@ -5,7 +5,7 @@ Hola bienvenido/a a router-tutorial.  Se trata de una aplicación web generada s
 ## Instalación
 
 Clonar el codigo a una carpeta local (https://docs.github.com/es/repositories/creating-and-managing-repositories/cloning-a-repository) y abrir la carpeta con VS-CODE (recomendable), abrir una terminal y correr el comando npm install para instalar las dependencias. Luego ejecutar npm start para verificar el correcto funcionamiento
-Abrir [http://localhost:3000](http://localhost:3000) para verlo in tu navegador.
+Abrir [http://localhost:3000](http://localhost:3000) para verlo en tu navegador.
 
 La aplicación hace hot reload cuando tu realizas modificaciones sobre el código fuente, esto te permite, si compila bien, visualizar esas modificaciones sin reiniciar la app.\
 
